@@ -3,6 +3,24 @@ h1 {
     font-size: 18px;
 }
 body {
-    color: green;
-    font-size: 90px;
+    background: rgb(65, 65, 65);
+    margin: 0;
+}
+header {
+    background: rgb(119, 224, 193);
+}
+nav {
+    float: right;
+}
+nav li {
+    display: inline-block;
+    margin: 0, 35px;
+    padding-top: 25px;
+}
+nav a{
+    color: rgb(65, 65, 65)
+    font-size: 14px;
+}
+nav a:hover {
+    color: black;
 }
