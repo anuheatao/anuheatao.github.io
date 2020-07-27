@@ -1,7 +1,3 @@
-body {
-    background: white;
-    margin: 0;
-}
 nav {
     display: grid;
     grid-template-columns: (3, 10%);
@@ -10,21 +6,20 @@ nav {
     justify-content: center;
     align-items: stretch;
     align-content: center;
-    grid-gap: 20px;
-    background-color: rgb(119, 224, 193);
+    grid-gap: 100px;
+    background-color: #A2DBD2;
 }
 nav li {
     padding: 0;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Dancing Script', cursive;
     display: inline-block;
 }
 nav li a {
-    background-color: rgba(0, 0, 0, 0.384);
     color: white;
     position: relative;
     width: 50px;
     height: 50px;
-    font-size: 20px;
+    font-size: 50px;
     text-align: center;
     margin: 0 10px;
     transition: 0.5s;
@@ -37,9 +32,33 @@ nav a:hover {
     display: inline-block;
     max-width: 500px;
 }
-.collage {
-    display: inline-block;
-    text-align: center;
-    max-width: 5000px;
-    padding-top: 20px;
+.imagebox {
+    margin: 10px 0px;
+    width: 1250px;
+    height: 650px;
+    background-image: url(image/collage3.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    animation: fade 15s;
+}
+@keyframes fade {
+    0%{
+        background-image: url(image/collage3.jpeg);
+        background-repeat: no-repeat;
+        background-size:cover;
+        background-position: center;
+    }
+    0%{
+        background-image: url(image/collage2.jpeg);
+        background-repeat: no-repeat;
+        background-size:cover;
+        background-position: center;
+    }
+    0%{
+        background-image: url(image/collage1.jpeg);
+        background-repeat: no-repeat;
+        background-size:cover;
+        background-position: center;
+    }
 }
