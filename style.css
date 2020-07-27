@@ -23,6 +23,7 @@ nav li a {
     text-align: center;
     margin: 0 10px;
     transition: 0.5s;
+    text-decoration: none;
 
 }
 nav a:hover {
