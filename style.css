@@ -36,7 +36,8 @@ nav a:hover {
 .imagebox {
     margin-left: auto;
     margin-right:auto;
-    width: 1250px;
+    margin-bottom: 10px;
+    width: 1240px;
     height: 650px;
     background-image: url(image/collage3.jpeg);
     background-repeat: no-repeat;
@@ -49,18 +50,15 @@ nav a:hover {
         background-image: url(image/collage3.jpeg);
         background-repeat: no-repeat;
         background-size:cover;
-        background-position: center;
     }
     0%{
         background-image: url(image/collage2.jpeg);
         background-repeat: no-repeat;
         background-size:cover;
-        background-position: center;
     }
     0%{
         background-image: url(image/collage1.jpeg);
         background-repeat: no-repeat;
         background-size:cover;
-        background-position: center;
     }
 }
